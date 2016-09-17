@@ -1,0 +1,146 @@
+body{
+	/*background: #E6E6E6;*/
+	background: #000000;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 400;
+	/*color: #04B404;*/
+	color: #0080FF;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 25px;
+}
+
+h3{
+	color: white;
+}
+
+p{
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
+
+a{
+	color: #088A08;
+}
+a:hover, a:focus{
+	color: #01DF01;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+}
+
+hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #CCC;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar-default{
+	background: rgba(0,0,0, .8);
+	border-color: transparent;
+}
+
+.navbar-default .container{
+	height: 80px;
+}
+
+.navbar-default .navbar-brand{
+	color: white;
+	font-size: 40px;
+
+}
+.navbar-default .navbar-brand a{
+	color: white;
+	text-decoration: none;
+}
+.navbar-default .navbar-brand a:hover{
+	color: white;
+}
+.navbar-default .navbar-brand strong{
+	color: white;
+}
+.navbar-default .navbar-brand p{
+	color: white;
+}
+.navbar-default .navbar-brand a:link{
+	color: white;
+}
+.navbar-default .navbar-brand a:active{
+	color: white;
+	text-decoration: none;
+}
+.navbar-default .navbar-brand a:visited{
+	color: white;
+}
+.navbar-default .navbar-brand p:hover{
+	color: white;
+}
+
+
+#by-banner{
+	font-size: 15px;
+}
+
+li{
+	font-size: 30px;
+}
+
+.navbar-default .navbar-nav li a{
+	color: white
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color: #2EFE2E;
+}
+.navbar-default .navbar-nav li a:visited{
+	color: white;
+}
+
+header{
+	background: url(../img/header.jpg) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	min-height: 530px;
+	margin-top: -20px;
+	padding-top: 100px;
+}
+
+header h1{
+	color:; white;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+	margin-top: 20%;
+}
+
+.centrado{
+	margin: 40px 0;
+	text-align: center;
+}
+
+i{
+	color: #0080FF;
+	margin: 8px;
+}
