@@ -8,7 +8,6 @@ body{
 
 h1, h2, h3, h4, h5, h6{
 	font-weight: 400;
-	/*color: #04B404;*/
 	color: #0080FF;
     font-family: 'Fjalla One', sans-serif;
 }
@@ -37,18 +36,6 @@ a:hover, a:focus{
 	color: #01DF01;
 }
 
-a:link{
-	text-decoration: none;
-}
-
-a:visited{
-	text-decoration: none;
-}
-
-a:active{
-	text-decoration: none;
-}
-
 hr{
 	display: block;
 	height: 1px;
@@ -57,16 +44,17 @@ hr{
 	margin: 1em 0;
 	padding: 0;
 }
-
+	
 .navbar-default{
 	background: rgba(0,0,0, .8);
 	border-color: transparent;
+	min-height: 80px;
 }
-
+/*
 .navbar-default .container{
 	height: 80px;
 }
-
+*/
 .navbar-default .navbar-brand{
 	color: white;
 	font-size: 40px;
@@ -74,31 +62,24 @@ hr{
 }
 .navbar-default .navbar-brand a{
 	color: white;
-	text-decoration: none;
 }
-.navbar-default .navbar-brand a:hover{
-	color: white;
+.navbar-default .navbar-nav li a{
+	color: white
 }
+
+.navbar-default .navbar-nav li a:hover{
+	color: #0080FF;
+}
+
 .navbar-default .navbar-brand strong{
 	color: white;
 }
 .navbar-default .navbar-brand p{
 	color: white;
 }
-.navbar-default .navbar-brand a:link{
-	color: white;
-}
-.navbar-default .navbar-brand a:active{
-	color: white;
-	text-decoration: none;
-}
-.navbar-default .navbar-brand a:visited{
-	color: white;
-}
 .navbar-default .navbar-brand p:hover{
 	color: white;
 }
-
 
 #by-banner{
 	font-size: 15px;
@@ -108,19 +89,8 @@ li{
 	font-size: 30px;
 }
 
-.navbar-default .navbar-nav li a{
-	color: white
-}
-
-.navbar-default .navbar-nav li a:hover{
-	color: #2EFE2E;
-}
-.navbar-default .navbar-nav li a:visited{
-	color: white;
-}
-
 header{
-	background: url(../img/header.jpg) no-repeat center;
+	background: url(../img/header.png) no-repeat center;
 	background-size: cover;
 	width: 100%;
 	min-height: 530px;
@@ -143,4 +113,15 @@ header h1{
 i{
 	color: #0080FF;
 	margin: 8px;
+}
+
+@media screen and (max-width: 768px){
+	header h1{
+		margin: 20px 0;
+		font-size: 24px;
+	}
+}
+.navbar-toggle{
+	min-height: 50px;
+	min-width: 50px;
 }
