@@ -48,7 +48,7 @@ hr{
 .navbar-default{
 	background: rgba(0,0,0, .8);
 	border-color: transparent;
-	min-height: 80px;
+	min-height: 70px;
 }
 /*
 .navbar-default .container{
